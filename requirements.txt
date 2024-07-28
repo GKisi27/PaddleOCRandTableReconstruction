@@ -1,4 +1,4 @@
-Python==3.10.14
+Python==3.10
 absl-py==1.4.0
 altair==4.2.2
 anyio==4.4.0
