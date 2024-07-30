@@ -16,7 +16,7 @@ def image_to_base64(image_path):
 
 #######################
 # Load data
-sample_image = Image.open('data/SampleImage.jpg')
+sample_image = Image.open('SampleImage.jpg')
 
 #######################
 # Global Variable

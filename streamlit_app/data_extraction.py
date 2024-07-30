@@ -10,7 +10,7 @@ from paddleocr import PaddleOCR
 from PIL import Image, ImageDraw, ImageFont
 
 # Load the custom font (adjust path if needed)
-font_path = "./fonts/simfang.ttf" 
+font_path = "simfang.ttf" 
 text_color = (255, 0, 0)    # Red
 
 def reset_column(df):
