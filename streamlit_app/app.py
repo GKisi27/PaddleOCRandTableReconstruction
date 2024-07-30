@@ -2,14 +2,11 @@
 # Import libraries
 import os
 import io
-import easygui
 import pandas as pd
-import altair as alt
 from PIL import Image
 import streamlit as st
 from data_extraction import *
 import base64
-from pathlib import Path
 
 # Function to convert image to base64
 def image_to_base64(image_path):
@@ -67,8 +64,6 @@ st.set_page_config(
     page_icon="📈",
     layout="wide",
     initial_sidebar_state="expanded")
-
-alt.themes.enable("dark")
 
 #######################
 # Sidebar
